@@ -1,0 +1,17 @@
+.card {
+  position:relative;
+}
+.card .card-header {
+  font-size: 24px;
+  font-weight: 500;
+  color: #212353;
+  margin-bottom: 20px;
+  text-align: unset;
+}
+
+.card .card-body {
+  font-size: 1rem;
+  color: #4b5d68;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}

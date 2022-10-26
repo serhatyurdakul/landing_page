@@ -1,0 +1,197 @@
+@media screen and (min-width: 1024px) {
+  /* @Hero Section */
+  .hero-section {
+    margin-top: 150px;
+    margin-bottom: 100px;
+  }
+  .hero-section .hero-image {
+    padding-top: 80px;
+  }
+  .hero-section .hero-content h1 {
+    font-size: 80px;
+    max-width: 645px;
+  }
+  .hero-section .hero-content p {
+    max-width: 380px;
+    margin-bottom: 50px;
+    font-size: 18px;
+  }
+  .hero-section .hero-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  .features .section-header p {
+    width: 584px;
+    margin: 0 auto;
+  }
+  .features .card:before {
+    content: "";
+    display: block;
+    background-repeat: no-repeat;
+    background-position: right center;
+    position: absolute;
+    background-size: contain;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .comments-background {
+    background-image: url("../img/testimonails.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 750px;
+    padding-top: 50px;
+    padding-left: 93px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .hero-content {
+    margin-bottom: 15px;
+  }
+  section {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .pink-section {
+    margin-bottom: 30px;
+  }
+
+  .pink-section-background {
+    padding-bottom: 30px;
+  }
+}
+
+/* @Hero Section */
+.hero-section .hero-content h1 {
+  font-weight: 700;
+  margin-bottom: 50px;
+  color: #212353;
+}
+
+.hero-section .hero-content p {
+  color: #4b5d68;
+  font-weight: 500;
+  line-height: 2;
+}
+
+/* @Pink Section */
+
+.pink-section-background {
+  background-position: center;
+  background-image: url("../img/pink-background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pink-section-content {
+  padding-right: 92px;
+}
+
+.pink-section h2 {
+  color: #212353;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  margin-bottom: 40px;
+}
+
+.features,
+.pink-section {
+  margin-bottom: 150px;
+}
+
+.pink-section p {
+  color: #4b5d68;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+/* @Fetatures */
+.features h2 {
+  margin-bottom: 50px;
+  font-size: 40px;
+  color: #212353;
+  font-weight: 700;
+}
+
+.features .section-header p {
+  width: 584px;
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: 500;
+  color: #4b5d68;
+  line-height: 2;
+}
+
+.features .section-header {
+  margin-bottom: 70px;
+}
+
+.features .card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.features .card-content {
+  flex: 1 0 0;
+}
+
+.features .card-image,
+.features .card-content {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.features .card-1:before {
+  background-image: url("../img/card-green.svg");
+  z-index: -1;
+}
+
+.features .card-2:before {
+  background-image: url("../img/card-purple.svg");
+  z-index: -1;
+}
+
+.features .card-3:before {
+  background-image: url("../img/card-pink.svg");
+  z-index: -1;
+}
+
+.features .card-4:before {
+  background-image: url("../img/card-blue.svg");
+  z-index: -1;
+}
+
+.features .card-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.features .card-footer i {
+  padding-top: 3px;
+}
+
+/* @Comments */
+
+.comments {
+  position: relative;
+  overflow-x: hidden;
+}
+
+.comment .swiper-container {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
